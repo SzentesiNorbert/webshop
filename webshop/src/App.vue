@@ -1,112 +1,111 @@
 <template>
-  <div id="app">
+  <div>
+  <div id="header">
+  </div>
+<!--Menü-->
 
-    <body class="container-fluid">
-      <div id="header">
-      </div>
-    <!--Menü-->
-    <!--
-      <div id="menu-container container-fluid col-lg-auto col-md-auto col-xs-auto">
-        <div class="col-group nav-container col-lg-auto col-md-auto col-xs-auto" role="navigation">
-          <ul id="nav" class="col-group">
-          <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto">&nbsp;&nbsp;&nbsp;Posters&nbsp;&nbsp;&nbsp;</li>
-          <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto">&nbsp;Accessory&nbsp;</li>
-          <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto">&nbsp;&nbsp;&nbsp;&nbsp; T-Shirt &nbsp;&nbsp;&nbsp;&nbsp;</li>
-          <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto">Steel Cases</li>
-          <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto">Retro Games</li>
-        </ul>
-        </div>
-      </div>
-    -->
-    <!--Tartalom-->
-
-      <div id="main-content">
-        <br>
-        <br>
-        <p> Poster size: 23x16 <br> Material: paper</p>
-        <hr/>
-      <p>All our posters are shipped within 3 business days in a poster tube wrapped in bubblewrap coating. </p>
-      <h1> Check out my other posters </h1>
-
-
-        <div class="row image-responsive">
-          <div class="item col-lg-auto col-md-auto col-xs-auto">
-            <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-            <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-          <div class="item col-lg-auto col-md-auto col-xs-auto">
-            <img src="../pics/1.jpg" width="300" alt="Mario Kart 8"><br>
-            <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-          <div class="item col-lg-auto col-md-auto col-xs-auto">
-            <img src="../pics/2.jpg" width="300" alt="Mass Effect Andromeda"><br>
-            <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-          <div class="item col-lg-auto col-md-auto col-xs-auto">
-            <img src="../pics/3.jpg" width="300" alt="Mario Odyssey"><br>
-            <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-    <!--
-          <div class="item col-lg-auto col-md-auto col-xs-auto">
-            <img src="pics/4.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-            <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-          <div class="item col-lg-auto col-md-auto col-xs-auto">
-            <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-            <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-          <div class="item col-lg-auto col-md-auto col-xs-auto">
-            <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-            <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-          <div class="item col-lg-auto col-md-auto col-xs-auto">
-            <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-            <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-    <div class="item col-lg-auto col-md-auto col-xs-auto">
-      <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-      <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-    <div class="item col-lg-auto col-md-auto col-xs-auto">
-      <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-      <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-    <div class="item col-lg-auto col-md-auto col-xs-auto">
-      <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-      <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-    <div class="item col-lg-auto col-md-auto col-xs-auto">
-      <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-      <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-    <div class="item col-lg-auto col-md-auto col-xs-auto">
-      <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-      <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-    <div class="item col-lg-auto col-md-auto col-xs-auto">
-      <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-      <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-    <div class="item col-lg-auto col-md-auto col-xs-auto">
-      <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-      <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
-    <div class="item col-lg-auto col-md-auto col-xs-auto">
-      <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
-      <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-
+  <div id="menu-container container-fluid col-lg-auto col-md-auto col-xs-auto">
+    <div class="col-group nav-container col-lg-auto col-md-auto col-xs-auto" role="navigation">
+      <ul id="nav" class="col-group">
+      <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn" type="button" value="Input"><a href="../index.html">&nbsp;&nbsp;&nbsp;Posters&nbsp;&nbsp;&nbsp;</a></li>
+      <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn" type="button" value="Input">&nbsp;Accessory&nbsp;</li>
+      <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn" type="button" value="Input">&nbsp;&nbsp;&nbsp;&nbsp; T-Shirt &nbsp;&nbsp;&nbsp;&nbsp;</li>
+      <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn" type="button" value="Input">Steel Cases</li>
+      <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn" type="button" value="Input">Retro Games</li>
+    </ul>
     </div>
-
-    -->
-    <!--Lábjegyzet-->
   </div>
-      </div>
-      <div id="footer">
-      </div>
-      </footer>
 
+<!--Tartalom-->
 
-      </body>
+  <div id="main-content">
+   <!-- <br>
+    <br>
+    <p> Poster size: 23x16 <br> Material: paper</p>
+    <hr/>
+  <p>All our posters are shipped within 3 business days in a poster tube wrapped in bubblewrap coating. </p>
+  <h1> Check out my other posters </h1>
+-->
+
+    <div class="row image-responsive">
+      <div class="item col-lg-auto col-md-auto col-xs-auto">
+        <a href="item/item1.html">
+        <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain">
+      </a>
+      <br>
+        <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"></form>
+      </div>
+
+      <div class="item col-lg-auto col-md-auto col-xs-auto">
+        <a href="item/item2.html">
+        <img src="../pics/1.jpg" width="300" alt="Mario Kart 8"></a><br>
+        <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"></form></div>
+
+      <div class="item col-lg-auto col-md-auto col-xs-auto">
+        <a href="../item/item3.html">
+        <img src="../pics/2.jpg" width="300" alt="Mass Effect Andromeda"></a><br>
+        <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"></form>
+      </div>
+
+      <div class="item col-lg-auto col-md-auto col-xs-auto">
+        <a href="item/item4.html">
+        <img src="../pics/3.jpg" width="300" alt="Mario Odyssey"><br></a>
+        <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"></form></div>
+<!--
+      <div class="item col-lg-auto col-md-auto col-xs-auto">
+        <img src="pics/4.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
+        <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
+
+      <div class="item col-lg-auto col-md-auto col-xs-auto">
+        <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
+        <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
+
+      <div class="item col-lg-auto col-md-auto col-xs-auto">
+        <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
+        <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
+
+      <div class="item col-lg-auto col-md-auto col-xs-auto">
+        <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
+        <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
+
+<div class="item col-lg-auto col-md-auto col-xs-auto">
+  <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
+  <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
+
+<div class="item col-lg-auto col-md-auto col-xs-auto">
+  <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
+  <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
+
+<div class="item col-lg-auto col-md-auto col-xs-auto">
+  <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
+  <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
+
+<div class="item col-lg-auto col-md-auto col-xs-auto">
+  <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
+  <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
+
+<div class="item col-lg-auto col-md-auto col-xs-auto">
+  <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
+  <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
+
+<div class="item col-lg-auto col-md-auto col-xs-auto">
+  <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
+  <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
+
+<div class="item col-lg-auto col-md-auto col-xs-auto">
+  <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
+  <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
+
+<div class="item col-lg-auto col-md-auto col-xs-auto">
+  <img src="http://i.ebayimg.com/images/g/LiIAAOSwHjNV8CCe/s-l1600.jpg" width="300" alt="Metal Gear Solid V: The Phantom Pain"><br>
+  <form action="http://www.ebay.com/itm/Original-Metal-Gear-Solid-V-The-Phantom-Pain-23x16-Poster-/111796539639?ssPageName=STRK:MESE:IT" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
+
+</div>
+
+-->
+</div>
   </div>
+</div>
 </template>
 
 <script>
@@ -196,7 +195,7 @@ text-transform: uppercase;
 display: inline-flex;
 position: relative;
 margin-top: 20px;
-background-image: url("http://www.nuflowwidebay.com.au/wp-content/uploads/2015/10/expences-button-png-hi.png");
+background-image: url("../../navpic/nav.png");
 background-position: center;
 background-size: contain;
 background-repeat: no-repeat;
@@ -212,6 +211,7 @@ display:flex;
 font-weight: bold;
 line-height: 50px;
 text-transform: uppercase;
+text-decoration: none;
 }
 
 a {
@@ -219,9 +219,10 @@ text-decoration: none;
 
 }
 li {
+  text-decoration: none;
   font-family: 'Kaushan Script', cursive;
   font-family: 'Roboto', sans-serif;
-  background-image: url("http://www.nuflowwidebay.com.au/wp-content/uploads/2015/10/expences-button-png-hi.png");
+  background-image:url("http://www.nuflowwidebay.com.au/wp-content/uploads/2015/10/expences-button-png-hi.png");
 }
 
 /*Tartalom*/
