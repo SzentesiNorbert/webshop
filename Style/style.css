@@ -145,6 +145,11 @@ margin: 10px;
 }
 
 img {
+  transition: width 1s, height 4s;
   border-radius: 35px;
   overflow: none;
+}
+img:hover {
+  width: 450px;
+  height: auto;
 }
