@@ -32,8 +32,8 @@ p {
   display: block;
   position: relative;
   background-image:url("../pics/header.jpg");
-  background-repeat: round;
-  background-size: contain;
+  background-repeat: repeat-x;
+  background-size: 470px auto;
   box-shadow: 5px 0 30px 20px white;
 }
 /* navigáció */
@@ -80,7 +80,7 @@ background-image: url("http://www.nuflowwidebay.com.au/wp-content/uploads/2015/1
 background-position: center;
 background-size: contain;
 background-repeat: no-repeat;
-font-size: 2em;
+font-size: 1.3em;
 background-blend-mode: hue;
 padding:2%;
 }
@@ -136,7 +136,8 @@ margin-right: auto;
   position: relative;
   display: block;
   float: right;
-  width: 70%;
+  width: 60%;
+  margin-right: 4em;
 }
 
 form {
@@ -147,9 +148,15 @@ margin: 10px;
 img {
   transition: width 1s, height 4s;
   border-radius: 35px;
-  overflow: none;
+  overflow: visible;
 }
 img:hover {
-  width: 450px;
+  width: 50em;
+  height: auto;
+  align-items: center;
+}
+.itempic:hover {
+  transition: width 1s, height 5s;
+  align-items: center;
   height: auto;
 }

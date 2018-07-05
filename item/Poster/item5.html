@@ -1,42 +1,93 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
 	<meta charset="utf-8">
-	<link href="../../style/style.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;subset=latin-ext" rel="stylesheet">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
-<body class="container-fluid">
- <div id="header">
-  </div>
-<!--Menü-->
+<title>Webshop szakdolgozat</title>
+<link rel="stylesheet" type="text/css" href="../../style/style.css">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<!--fejléc-->
 
-  <div id="menu-container container-fluid col-lg-auto col-md-auto col-xs-auto">
-    <div class="col-group nav-container col-lg-auto col-md-auto col-xs-auto" role="navigation">
-      <ul id="nav" class="col-group">
-      <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn" type="button" value="Input"><a href="../../index.html">&nbsp;&nbsp;&nbsp;Posters&nbsp;&nbsp;&nbsp;</a></li>
-      <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn" type="button" value="Input"><a href="../../acc/acc.html">&nbsp;Accessory&nbsp;</a></li>
-      <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn" type="button" value="Input"><a href="../../shirt/shirt.html">&nbsp;&nbsp;&nbsp;&nbsp; T-Shirt &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-      <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn" type="button" value="Input">Steel Cases</li>
-      <li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn" type="button" value="Input">Retro Games</li>
-    </ul>
-    </div>
-  </div>
-	<div id="main-content">
-		<div class="row image-responsive">
-      <div class="itemlist col-lg-auto col-md-auto col-xs-auto">
+</head>
+
+<body class="container-fluid">
+	<div id="header"></div>
+
+	<!--Kereső-->
+
+	<!--Menü-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">GGS</span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+					<ul id="nav" class="col-group navbar">
+						<li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn nav-item active"
+							type="button" value="Input"><a href="../../index.html" class="nav-link">&nbsp;&nbsp;&nbsp;Posters&nbsp;&nbsp;&nbsp;<span class="sr-only"></span></a></li>
+						<li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn nav-item active"
+							type="button" value="Input"><a href="../../acc/acc.html" class="nav-link">&nbsp;Accessory&nbsp;</a></li>
+						<li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn nav-item active"
+							type="button" value="Input"><a href="../../shirt/shirt.html" class="nav-link">&nbsp;&nbsp;&nbsp;&nbsp; T-Shirt
+							&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+						<li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn nav-item active"
+							type="button" value="Input">Steel Cases</li>
+						<li class="col-lg-auto col-md-auto col-sm-auto col-xs-auto btn nav-item active"
+							type="button" value="Input">Retro Games</li>
+					</ul>
+				</div>
+			</div>
+	  </button>
+		</div>
+		</nav>
+
+		<div id="main-content">
+			<div class="row image-responsive">
+	      <div class="itemlist col-lg-auto col-md-auto col-xs-auto">
        <a href="../../pics/poster/21.jpg" target="_blank">
         <img src="../../pics/poster/21.jpg" width="300" alt="Mario Odyssey">
     </a><br>
-        <form action="#" target="_blank"><button class="btn">Buy it Now</a><br></button></form></div>
-        <div class="description">
-	<p> Poster size: 23x16 <br> Material: paper</p>
-    <hr/>
-  <p>All our posters are shipped within 3 business days in a poster tube wrapped in bubblewrap coating. </p>
-  <h1> Check out my other posters </h1>
-	</div>
-	</div>
+
+		      <form action="#" target="_blank">
+						<button type="button" onClick="kosarbol()">-</button>
+						<button class="btn">Buy it Now</a><br></button>
+						 <button id="minusz" type="button" onClick="kosarba()">+</button>
+					</form></div>
 
 
-</body>
-</html>
+					<div class="description">
+		<p> Poster size: 23x16 <br> Material: paper</p>
+			<hr/>
+		<p>All our posters are shipped within 3 business days in a poster tube wrapped in bubblewrap coating. </p>
+		<h1> Check out my other posters </h1>
+		<br>
+			 <p>Kosár tartalma: <a id="clicks">0</a></p>
+		</div>
+		</div>
+		<script type="text/javascript">
+		 var clicks = 0;
+
+		 function kosarba() {
+				 clicks++;
+				 document.getElementById("clicks").innerHTML = clicks;
+
+		 };
+		 function kosarbol() {
+			 if (clicks !== 0 ) {
+				 clicks--
+			 }
+
+		 		document.getElementById("clicks").innerHTML = clicks;
+
+		 };
+
+		 </script>
+
+
+
+
+	</body>
+	</html>
