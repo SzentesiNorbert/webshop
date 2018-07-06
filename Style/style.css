@@ -149,14 +149,23 @@ img {
   transition: width 1s, height 4s;
   border-radius: 35px;
   overflow: visible;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -webkit-perspective: 10000;
 }
 img:hover {
-  width: 50em;
+  width: 25em;
   height: auto;
   align-items: center;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -webkit-perspective: 10000;
 }
 .itempic:hover {
   transition: width 1s, height 5s;
   align-items: center;
   height: auto;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -webkit-perspective: 10000;
 }
