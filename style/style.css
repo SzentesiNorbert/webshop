@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kaushan+Script|Roboto&subset=latin-ext');
+
+/* Media query for mobile viewport */
+@media screen and (max-width: 400px) {
+    #paypal-button-container {
+        width: 100%;
+    }
+}
+
+/* Media query for desktop viewport */
+@media screen and (min-width: 400px) {
+    #paypal-button-container {
+        width: 250px;
+        display: inline-block;
+    }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*fejléc*/
+#main-content {
+
+}
+h1 {
+  text-align: center;
+  color: red;
+  font-family: 'Kaushan Script';
+  font-size: 2em;
+  padding-top: 1em;
+  text-shadow: 5px 4px 4px black;
+  text-transform: uppercase;
+
+
+}
+p {
+  font-family: cursive;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+#header{
+  background-color:black;
+  height: 300px;
+  width: 100%;
+  display: block;
+  position: relative;
+  background-image:url("../pics/header.jpg");
+  background-repeat: repeat-x;
+  background-size: 470px auto;
+  box-shadow: 5px 0 30px 20px white;
+}
+/* navigáció */
+
+
+#menu-container {
+background: #efefef none repeat scroll 0 0;
+}
+
+.nav-container {
+display:flex;
+
+
+
+}
+
+#nav {
+text-align:center;
+}
+
+#menu-container .nav-container .col-group {
+white-space: nowrap;
+
+}
+.col-group {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+
+}
+ul {
+list-style: outside none none;
+}
+*, *::before, *::after{
+
+  box-sizing: border-box;
+}
+#nav > li {
+text-transform: uppercase;
+display: inline-flex;
+position: relative;
+margin-top: 20px;
+background-image: url("http://www.nuflowwidebay.com.au/wp-content/uploads/2015/10/expences-button-png-hi.png");
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+font-size: 1.3em;
+background-blend-mode: hue;
+padding:2%;
+}
+
+
+#nav > li > a {
+color: black;
+display:flex;
+font-weight: bold;
+line-height: 50px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+}
+li {
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("http://www.nuflowwidebay.com.au/wp-content/uploads/2015/10/expences-button-png-hi.png");
+}
+
+/*Tartalom*/
+body {
+
+background-image: linear-gradient(to bottom, white 20%, steelblue 55%);
+}
+.row {
+  display: inline-flex;
+  text-align: center;
+  margin-top: 20px;
+}
+.item {
+margin-top: 20px;
+margin-left:auto;
+margin-right: auto;
+
+}
+
+.itemlist{
+
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.description {
+  position: relative;
+  display: block;
+  float: right;
+  width: 60%;
+  margin-right: 4em;
+}
+
+form {
+margin: 10px;
+
+}
+
+img {
+  transition: width 1s, height 4s;
+  border-radius: 35px;
+  overflow: visible;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -webkit-perspective: 10000;
+}
+img:hover {
+  width: 25em;
+  height: auto;
+  align-items: center;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -webkit-perspective: 10000;
+}
+.itempic:hover {
+  transition: width 1s, height 5s;
+  align-items: center;
+  height: auto;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -webkit-perspective: 10000;
+}
