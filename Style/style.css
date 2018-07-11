@@ -128,7 +128,7 @@ li {
 /*Tartalom*/
 body {
 
-background-image: linear-gradient(to bottom, white 20%, steelblue 50%);
+background-image: linear-gradient(to bottom, white 20%, steelblue 55%);
 }
 .row {
   display: inline-flex;
