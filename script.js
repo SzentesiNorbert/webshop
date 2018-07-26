@@ -34,8 +34,18 @@ document.getElementById("total").innerHTML = clicks*1000;
 
 /*Kosár*/
 
-function kosar(clicks) {
-  return clicks*1000;
+function kosar() {
+
+  var tomb = [clicks];
+
+
+  for (var i = 0; i < tomb.length; i++) {
+    if (tomb [i] > 0) {
+    let szamlalo = tomb[i];
+    }
+    const a = szamlalo;
+    console.log(a);
+  }
 
 }
 /*Kereső */
