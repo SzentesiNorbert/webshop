@@ -147,10 +147,10 @@ margin-right: 1%;
   margin-right: 20px;
 }
 .description {
-  position: relative;
+  position: absolute;
   display: block;
   float: right;
-  width: 60%;
+  width: 70%;
   margin-right: 4em;
 }
 

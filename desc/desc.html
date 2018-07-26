@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+<title>Webshop szakdolgozat</title>
+<link rel="stylesheet" type="text/css" href="../../style/style.css">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="../script.js" type="text/javascript"></script>
+	<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<!--fejléc-->
+
+</head>
+  <body class="description">
+<div>
+<p> Poster size: 23x16 <br> Material: paper</p>
+<hr/>
+<p>All our posters are shipped within 3 business days in a poster tube wrapped in bubblewrap coating. </p>
+<br>
+<p>Ár: 1000Ft/db + postaköltség</p>
+<div class="button" style="display:inline; text-align: center">
+<form action="#" target="_blank">
+<input type="button" class="btn btn-warning" onClick="kosarbol(), osszesen()" value="-"></input>
+
+<input type="button" class="btn btn-danger" onClick="kosar()" value="Kosárba"></input>
+
+<input type="button" class="btn btn-warning" onClick="kosarba(), osszesen()" value="+"></input>
+
+</form>
+</div>
+<p>Kosár tartalma: <a id="clicks">0</a></p>
+<p>Összesen: <a id="total" class="price">0</a> Ft/db</p>
+</div>
+</div>
+</div>
+
+<script src="../script.js" type="text/javascript"></script>
+</body>
+</html>
